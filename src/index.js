@@ -34,9 +34,9 @@ const main = async () => {
     // await task.populate('owner')
     // console.log(task.owner)
 
-    const user = await User.findById('6803427b26a6b76a2dc8c0f7')
-    await user.populate('tasks')
-    console.log(user.tasks)
+    // const user = await User.findById('6803427b26a6b76a2dc8c0f7')
+    // await user.populate('tasks')
+    // console.log(user.tasks)
 }
 
 main()
